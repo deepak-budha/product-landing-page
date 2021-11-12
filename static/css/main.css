@@ -1,0 +1,161 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    background-color: #E5E7EB;
+    font-family: sans-serif monospace; 
+}
+#header {
+    padding: 10px;
+    background-color: #D1D5DB;
+    position: sticky;
+    top: 0;
+}
+
+#header-img{
+    max-width: 60px;
+    height: auto;
+    border-radius: 5px;
+    vertical-align: middle;
+}
+
+span {
+    font-size: 25px;
+}
+
+#nav-bar{
+    margin-top: 12px;
+    margin-bottom: 20px;
+    margin-right: auto;
+    float: right;
+}
+
+.nav-link {
+    padding: 50px;
+    font-size: 19px;
+    text-decoration: none;
+}
+
+.outer-form {
+    text-align: center;
+}
+#email{
+    width: 25%;
+    padding: 7px;
+    border-radius: 6px;
+}
+
+#submit{
+    margin-top: 12px;
+    width: 12.5%;
+    padding: 7px;
+    background-color: chocolate;
+    border-radius: 6px;
+}
+
+#features{
+    margin-bottom: 60px;
+    margin-left: 17%;
+    margin-right: 17%;
+}
+
+.section{
+    text-align: left;
+    padding: 6px;
+}
+
+#video{
+    display: block;
+    margin: auto;
+}
+
+h2 {
+    margin-bottom: 0;
+}
+
+.section p {
+    margin-top: 0;
+}
+
+
+#pricing{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 60px;
+    margin-bottom: 0px;
+    display: flex;
+    height: 300px;
+    align-items: center;
+ 
+}
+
+.box1{
+    background-color: #E5E7EB;
+    width: 200px;
+    flex-grow: 1;
+    border: 1px green solid;
+    margin: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+.box2{
+    background-color: #E5E7EB;
+    width: 200px;
+    flex-grow: 1;
+    border: 1px green solid;
+    border-radius: 5px;
+    margin: 20px;
+    text-align: center;
+
+}
+.box3{
+    background-color: #E5E7EB;
+    width: 200px;
+    flex-grow: 1;
+    border: 1px green solid;
+    margin: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.submit{
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.box-heading{
+    background-color: #9CA3AF;
+    padding: 15px;
+    margin-top: 0;
+}
+
+#pricing input{
+    background-color: #FCD34D;
+    width: 100px;
+    padding: 10px;
+}
+.footer-nav{
+    background-color: #D1D5DB;
+    padding: 15px;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+
+}
+.footer-nav a{
+    padding: 25px;
+    text-decoration: none;
+    font-size: 19px;
+
+}
+
+@media (max-width: 500px){
+    #pricing {
+        position: static;
+        width: 100%;
+        display: block;
+        flex-direction: column;
+    }
+
+}
